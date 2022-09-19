@@ -11,7 +11,7 @@ const routes: Routes = [
     component: HomeComponent,
     children:[
       {
-        path: 'dashboard', component: DashboardComponent
+        path: 'dashboard', component: DashboardComponent,pathMatch: 'full'
       },
       {
         path: 'grafica1', component: Grafica1Component

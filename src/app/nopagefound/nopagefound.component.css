@@ -21,7 +21,7 @@ Error Page
 .error-box {
     height: 100%;
     position: fixed;
-    background-image: url('../../../../assets/assets/images/background/error-bg.jpg');
+    background-image: url(../../assets/assets/images/background/error-bg.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;

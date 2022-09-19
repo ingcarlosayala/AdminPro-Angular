@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { DashboardComponent } from './admin-pro/pages/dashboard/dashboard.component';
-import { NopagefoundComponent } from './admin-pro/pages/nopagefound/nopagefound.component';
+import { NopagefoundComponent } from './nopagefound/nopagefound.component';
 
 const routes: Routes = [
   {
@@ -13,7 +12,7 @@ const routes: Routes = [
     loadChildren: () => import ('./auth/auth.module').then(x => x.AuthModule)
   },
   {
-    path: '**', component: NopagefoundComponent 
+    path: '**', component: NopagefoundComponent
   }
 ];
 
